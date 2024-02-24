@@ -9,7 +9,9 @@ function Home() {
     <>
       <div className="container">
         {jsonData.map((ele) => {
-          return <Tours cityName={ele.name} cityImage={ele.image} />;
+          return (
+            <Tours cityName={ele.name} cityImage={ele.image} id={ele.id} />
+          );
         })}
       </div>
     </>
