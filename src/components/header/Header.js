@@ -1,10 +1,12 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 //
 function Header() {
   return (
-    <>
-      <h1 className="header">Header Component</h1>
-    </>
+    <nav className="header">
+      <Link to="/">Re:Zero</Link>
+      <Link to="/home">Home</Link>
+    </nav>
   );
 }
 // Explort

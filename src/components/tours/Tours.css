@@ -3,6 +3,25 @@ img {
 }
 
 .box {
-  border: 3px solid grey;
+  border: 5px solid transparent;
+  outline: 5px solid orange;
   text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.box:hover {
+  outline-color: #222;
+}
+
+.box .boxHeader {
+  padding: 40px;
+  color: orangered;
+  font-weight: bold;
+}
+
+.linky {
+  text-decoration: none;
+  border-radius: 50%;
 }

@@ -19,9 +19,10 @@
   padding: 15px;
   color: crimson;
   font-weight: bold;
+  border-radius: 50%;
   transition: 0.3s;
 }
 .footer a:hover {
   color: white;
-  background-color: grey;
+  background-color: #222;
 }
